@@ -30,8 +30,8 @@ gulp.task('js', ['common-js'], function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/c3/c3.min.js',
 		'app/libs/d3/d3.min.js',
-		'app//libs/tipsy-master/src/javascripts/jquery.tipsy.js',
-		'app///libs/bootstrap/dist/js/bootstrap.min.js',
+		'app/libs/tipsy-master/src/javascripts/jquery.tipsy.js',
+		'app/libs/bootstrap/dist/js/bootstrap.min.js',
 		'app/js/common.min.js', // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
